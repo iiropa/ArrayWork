@@ -43,8 +43,45 @@ public class Main {
 
       */
         //HW. 1
+       /*
+
         int[] numbers = {2, 5, -3, 11, 193, -2};
-        for (int v : numbers) System.out.println(v);
+        int sum = 0;
+        for (int i : numbers)
+            sum += i;
+        System.out.print("The elements are: ");
+        for (int v : numbers)
+            System.out.print(v + ", ");
+        System.out.println("\n"); // funny space
+        System.out.println("the sum is " + sum);
+
+        */
+        // HW. 3
+/*
+
+        // purpose of algorithm is to check if numbers are in incrementing progression
+        int[] values = {-3, 2, 5, 4, 7};
+        boolean result = true;
+
+        for (int n = 1; n < 5; n++){
+            if (values[n] < values[n - 1]) {
+                result = false;
+            }
+        }
+        System.out.println(result);
+
+*/
+        //Hw. 4
+        /*
+
+        int[] values = {5, 4, -7, -2, -1};
+        int[] newValues = {0, 0, 0, 0, 0}; //epic new array with null values
+
+        for (int i = 0; i < 5; i++){
+            newValues[i] = values[4-i]; //4-i = 4-0 = 4, 4-i=4-1=3, just switches positions of numbers in array
+        }
+*/
+
 
 
 
